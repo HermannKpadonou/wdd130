@@ -103,7 +103,7 @@ p{
 #main #flag-civ {
     max-width: 200px;
     float: left;
-    padding: 7px;
+    padding: 5px;
 }
 
 #aside {
@@ -126,4 +126,6 @@ footer {
     color: #FEFFFE;
     padding: 5px;
     text-align: center;
+    width: auto;
+    height: auto;
 }

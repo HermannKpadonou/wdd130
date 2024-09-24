@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+document.addEventListener("DOMContentLoaded", function() {
   // Récupération de l'année actuelle
   const currentYear = document.querySelector("#currentYear");
   const today = new Date();
