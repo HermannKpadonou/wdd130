@@ -1,130 +1,133 @@
-
-
- *{
+*{
     margin: 0 auto;
-    font-family: Merriweather,sans-serif;
-}
-
-/* Header */
-
-header {
-    background-color:coral;
-    color: #FEFFFE;
+    font-family: Merriweather, sans-serif;
+    }
+    
+    /* Header */
+    header {
+    background-color: #2C3E50; /* Bleu foncé */
+    color: #ECF0F1; /* Blanc cassé */
     text-align: center;
-}
-
-header h1 {
+    }
+    
+    header h1 {
     padding: 20px;
-}
-
-nav {
-    background-color: rgb(38, 199, 38);
+    }
+    
+    nav {
+    background-color: #E74C3C; /* Rouge vif */
     align-content: center;
     font-size: 25px;
-}
-
-nav a {
+    }
+    
+    nav a {
     text-decoration: none;
-    color: white;
+    color: #ECF0F1; /* Blanc cassé */
     padding: 10px;
-}
-
-nav a:hover {
-    background-color: coral;
+    }
+    
+    nav a:hover {
+    background-color: #2C3E50; /* Bleu foncé */
     border-radius: 5px;
-}
-
-nav ul {
+    }
+    
+    nav ul {
     list-style-type: none;
     padding-inline-start: 0px;
     display: flex;
     max-width: 1000px;
-}
-
-nav ul {
+    }
+    
+    nav ul {
     flex: 1 1 100%;
     padding: 10px;
-}
-
-/* Main */
-
-main {
+    }
+    
+    /* Main */
+    main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    height:100% ;
-}
-
-.card  {
-    border: 1px solid coral;
+    height: 100%;
+    }
+    
+    .card {
+    border: 1px solid #E74C3C; /* Rouge vif */
     border-radius: 10px;
     margin: 10px;
     padding: 5px;
-}
-
-hr{
-    border: 1px solid coral;
-}
-.indent {
+    }
+    
+    hr {
+    border: 1px solid #E74C3C; /* Rouge vif */
+    }
+    
+    .indent {
     text-indent: 20px;
-}
-.card h2 {
+    }
+    
+    .card h2 {
     text-align: center;
-    background-color: coral;
-    color: white;
+    background-color: #E74C3C; /* Rouge vif */
+    color: #ECF0F1; /* Blanc cassé */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-#main {
+    }
+    
+    #main {
     grid-column: 1/3;
     margin-right: 5px;
+    }
     
-}
-
-p{
+    p {
     margin: 5px;
-}
-
-#main #hermann{
+    }
+    
+    #main #hermann {
     width: 250px;
     height: 50%;
     float: right;
     padding: 5px;
     border-radius: 5%;
-}
-
-
-#main h3 {
+    }
+    
+    #main h3 {
     text-align: center;
-}
-
-#main #flag-civ {
+    }
+    
+    #main #flag-civ {
     max-width: 200px;
     float: left;
     padding: 5px;
-}
-
-#aside {
+    }
+    
+    #aside {
     grid-column: 3/4;
     margin-left: 5px;
-}
-
-#aside ul {
+    }
+    
+    #aside ul {
     padding-top: 80px;
-}
-
-#aside li {
+    }
+    
+    #aside li {
     padding: 10px;
-}
+    }
+    
 
-/* Footer */
-
-footer {
-    background-color:rgb(38, 199, 38);
-    color: #FEFFFE;
+    .indent {
+        text-indent: 20px;
+        margin: 10px 0;
+        line-height: 1.6;
+        font-size: 16px;
+        color: #333333; /* Gris foncé pour une bonne lisibilité */
+        }
+    /* Footer */
+    footer {
+    background-color: #2C3E50; /* Bleu foncé */
+    color: #ECF0F1; /* Blanc cassé */
     padding: 5px;
     text-align: center;
     width: auto;
     height: auto;
-}
+    }
