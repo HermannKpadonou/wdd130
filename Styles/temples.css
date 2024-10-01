@@ -1,10 +1,8 @@
-* {
-    margin: 0 auto;
+* {margin: 0 auto;
     font-family: Montserrat, sans-serif;
     width: auto;
     }
     
-    /* Header */
     header {
     display: flex;
     justify-content: space-between;
@@ -14,19 +12,14 @@
     color: #ECF0F1; 
     }
     
-    header h1 {
-    margin: 0;
-    font-size: 24px;
-    }
-    
     nav {
     margin-left: auto;
     }
     
     nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     display: flex;
     padding: 25px;
     }
@@ -34,11 +27,12 @@
     
     
     nav a {
+    justify-self:right;
     text-decoration: none;
     color: #ECF0F1; 
     font-size: 18px;
-    padding: 10px;
-    margin-left: 50px;
+    padding: 5px;
+    margin: 0 10px;
     }
     
     .navigation a:hover, nav a:hover {
@@ -47,11 +41,24 @@
     background-image: linear-gradient(to right, #E74C3C, rgb(139, 136, 136));
     }
     
-    /* Main */
+    .menu-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        }
+        
+    .menu-toggle .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 4px 0;
+    }
+    
     main {
     padding: 20px;
     }
-    
+   
+   
     .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -63,11 +70,14 @@
     }
     
     .item img {
-    width: 50%;
+    width: 75%;
     height: auto;
-    border-radius: 10px;
     }
     
+    h2{
+       margin:10px;
+       text-align: center
+    }
     .item p {
     margin-top: 10px;
     font-size: 16px;
