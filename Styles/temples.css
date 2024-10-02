@@ -42,17 +42,19 @@
     }
     
     .menu-toggle {
-        display: none;
-        flex-direction: column;
+        display: none; /* Masqué par défaut */
         cursor: pointer;
+        font-size: 24px;
         }
         
-    .menu-toggle .bar {
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 4px 0;
-    }
+        .nav-links {
+        display: flex;
+        list-style: none;
+        }
+        
+        .nav-links.active {
+        display: block; /* Afficher les liens en mode mobile */
+        }
     
     main {
     padding: 20px;

@@ -1,17 +1,15 @@
 @media (max-width: 768px) {
     .menu-toggle {
-    display: flex;
+    display: block; /* Afficher le bouton hamburger */
     }
+    
     .nav-links {
-    display: none;
+    display: none; /* Masquer les liens par défaut */
     flex-direction: column;
-    width: 100%;
     }
+    
     .nav-links.active {
-    display: flex;
-    }
-    .nav-links li {
-    text-align: center;
-    margin: 10px 0;
+    display: flex; /* Afficher les liens lorsqu'ils sont actifs */
     }
     }
+    
