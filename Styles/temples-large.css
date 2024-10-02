@@ -11,5 +11,8 @@
     .nav-links.active {
     display: flex; /* Afficher les liens lorsqu'ils sont actifs */
     }
+    .gallery {
+        flex-direction: column; /* Aligner les images verticalement */
+        }
     }
     
