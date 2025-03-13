@@ -1,17 +1,6 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-
-
-h1, h2, h3, p, li {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-nav.navigation ul li a {
-  font-family: 'Montserrat', sans-serif;
-}
-    
     /* Header */
     header {
     background-color: #2C3E50; /* Bleu foncé */
