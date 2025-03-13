@@ -1,6 +1,16 @@
-*{
-    margin: 0 auto;
-    }
+body {
+    font-family: 'Montserrat', sans-serif; /* Applique Montserrat au corps de la page */
+}
+
+
+h1, h2, h3, p, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav.navigation ul li a {
+  font-family: 'Montserrat', sans-serif;
+}
     
     /* Header */
     header {
