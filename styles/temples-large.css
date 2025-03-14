@@ -1,0 +1,18 @@
+@media (min-width: 768px) {
+    .menu-toggle {
+    display: block; /* Afficher le bouton hamburger */
+    }
+    
+    .nav-links {
+    display: none; /* Masquer les liens par défaut */
+    flex-direction: column;
+    }
+    
+    .nav-links.active {
+    display: flex; /* Afficher les liens lorsqu'ils sont actifs */
+    }
+    .gallery {
+        flex-direction: column; /* Aligner les images verticalement */
+        }
+    }
+    
