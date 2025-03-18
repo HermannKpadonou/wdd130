@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8ab7e3;
+    background-color: #f0dbb2;
     padding: 20px;
     color: #05033b;
 }
@@ -36,7 +36,7 @@ nav a {
 nav a:hover {
     background-color: #4fdcef;
     border-radius: 5px;
-    background-image: linear-gradient(to right, #100cf0, rgb(139, 136, 136));
+    background-image: linear-gradient(to right, #03D7F7, rgb(139, 136, 136));
 }
 
 .menu-toggle {
@@ -86,7 +86,7 @@ h2 {
 }
 
 footer {
-    background-color: #8ab7e3;
+    background-color: #f0dbb2;
     color: #05033b;
     padding: 5px;
     text-align: center;
