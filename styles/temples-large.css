@@ -1,18 +1,19 @@
-@media (min-width: 768px) {
-    .menu-toggle {
-    display: block; /* Afficher le bouton hamburger */
-    }
-    
-    .nav-links {
-    display: none; /* Masquer les liens par défaut */
-    flex-direction: column;
-    }
-    
-    .nav-links.active {
-    display: flex; /* Afficher les liens lorsqu'ils sont actifs */
-    }
+@media (min-width: 800px) {
     .gallery {
-        flex-direction: column; /* Aligner les images verticalement */
-        }
+        grid-template-columns: repeat(3, 1fr);
     }
-    
+
+    .item img {
+        width: 80%; 
+    }
+
+    .nav-links {
+        display: flex; 
+        flex-direction: row;
+        width: auto; 
+    }
+
+    .menu-toggle {
+        display: none; 
+    }
+}
