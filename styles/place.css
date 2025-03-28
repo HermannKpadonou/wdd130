@@ -15,9 +15,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color); /* Utilisation de la variable */
+    background-color: var(--primary-color); /* use of the variable */
     padding: 20px;
-    color: var(--secondary-color); /* Utilisation de la variable */
+    color: var(--secondary-color); /* use of the variable */
   }
   
   .weather-section h2 img {
@@ -32,10 +32,10 @@
   }
   
   .intro-section {
-    background-color: var(--background-color-mid); /* Utilisation de la variable */
+    background-color: var(--background-color-mid); /* use of the variable */
     justify-self: stretch;
     margin: 0;
-    color: var(--secondary-color); /* Utilisation de la variable */
+    color: var(--secondary-color); /* use of the variable */
     padding: 5px;
     text-align: center;
     width: 100%;
@@ -44,8 +44,8 @@
   
   .data-section,
   .weather-section {
-    background-color: var(--background-color-light); /* Utilisation de la variable */
-    color: var(--secondary-color); /* Utilisation de la variable */
+    background-color: var(--background-color-light); /* use of the variable */
+    color: var(--secondary-color); /* use of the variable */
     padding: 5px;
     text-align: center;
     width: auto;
@@ -60,7 +60,7 @@
   .image-container {
     grid-column: 2 / 4;
     grid-row: 1 / 4;
-    color: var(--secondary-color); /* Utilisation de la variable */
+    color: var(--secondary-color); /* use of the variable */
     padding: 5px;
     text-align: center;
     width: auto;
@@ -73,8 +73,8 @@
   }
   
   footer {
-    background-color: var(--primary-color); /* Utilisation de la variable */
-    color: var(--secondary-color); /* Utilisation de la variable */
+    background-color: var(--primary-color); /* use of the variable */
+    color: var(--secondary-color); /* use of the variable */
     padding: 5px;
     text-align: center;
     width: auto;
