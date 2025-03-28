@@ -3,6 +3,7 @@
     --secondary-color: #05033b; 
     --background-color-light: #8ba4a5; 
     --background-color-mid: #54AD87; 
+    --intro-color: aliceblue;
   }
 
   * {
@@ -38,7 +39,7 @@
     background-color: var(--background-color-mid); /* use of the variable */
     justify-self: stretch;
     margin: 0;
-    color: var(--secondary-color); /* use of the variable */
+    color: var(--intro-color); /* use of the variable */
     padding: 5px;
     text-align: center;
     width: 100%;
