@@ -38,6 +38,7 @@
         
     .weather-section h2,
     .data-section h2 {
+        color: aliceblue;
         display: flex;
         align-items: center;
     }
